@@ -6,6 +6,13 @@ html {
 h1 {
     text-align: center;
 }
+.screen{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding: 20px;
+    font-size: 60px;
+}
 .container {
 width: 500px;
 height: 600px;
@@ -27,7 +34,7 @@ border-width: 1px;
     flex-wrap: wrap;
     margin: 5px;
 }
-.button {
+.buttons {
     width: 20%;
     height: 25%;
 }
