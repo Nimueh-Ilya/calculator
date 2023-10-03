@@ -8,13 +8,13 @@ h1 {
 }
 
 .container {
-width: 400px;
-height: 600px;
-display: flex;
-flex-direction: column;
-border-style: solid;
-border-width: 1px;
-background-color: rgba(22, 22, 22, 0.582);
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(22, 22, 22, 0.63);
 }
 .screen-container {
     height: 160px;
@@ -26,7 +26,7 @@ background-color: rgba(22, 22, 22, 0.582);
     justify-content: right;
     align-items: start;
     padding: 20px;
-    background-color: #f4f8e6;
+    background-color: #c2b9b596;
 }
 .screen {
     font-size: min(20px,40px) ;
@@ -43,8 +43,12 @@ background-color: rgba(22, 22, 22, 0.582);
     height: 25%;
 }
 .buttons {
-    background-color: green;
+    background-color: rgb(66, 134, 66);
+    font-size: 30px;
+    color: black;
+    border-style: solid;
+    border-color: black;
 }
 .number {
-background-color: rgb(184, 169, 169);
+background-color: rgba(209, 179, 179, 0.281);
 }
